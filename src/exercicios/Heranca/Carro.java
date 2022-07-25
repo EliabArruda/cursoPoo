@@ -8,8 +8,8 @@ public class Carro extends Veiculo {
 
     }
 
-    public Carro(String cor, String modelo, float capacidadeDoTanque) {
-        super(cor, modelo, capacidadeDoTanque);
+    public Carro(String modelo, String cor, float capacidadeDoTanque) {
+        super(modelo, cor, capacidadeDoTanque);
     }
 
 }

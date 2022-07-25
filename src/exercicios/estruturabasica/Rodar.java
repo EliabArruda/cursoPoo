@@ -4,8 +4,8 @@ public class Rodar {
 
     public static void main(String[] args) {
 
-        Carro carro1 = new Carro("Preto", "Fiat Cronos 2020", 48f);
-        Carro carro2 = new Carro("Azul", "Chevrolet Camaro SS 2015", 54f);
+        Carro carro1 = new Carro("Fiat Cronos 2020", "Preto", 48f);
+        Carro carro2 = new Carro("Chevrolet Camaro SS 2015", "Azul", 54f);
 
         //Carro 1
         carro1.setCor("Vermelho");
