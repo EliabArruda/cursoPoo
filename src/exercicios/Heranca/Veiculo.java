@@ -1,18 +1,19 @@
-package exercicios.estruturabasica;
+package exercicios.Heranca;
 
-public class Carro{
+public abstract class Veiculo {
+
 
     private String cor;
     private String modelo;
     private float capacidadeDoTanque;
 
     //Métodos Construtores
-    public Carro() {
+    public Veiculo() {
 
 
     }
 
-    public Carro(String modelo, String cor, float capacidadeDoTanque) {
+    public Veiculo(String modelo, String cor, float capacidadeDoTanque) {
         this.modelo = modelo;
         this.cor = cor;
         this.capacidadeDoTanque = capacidadeDoTanque;
@@ -68,6 +69,3 @@ public class Carro{
                 "capacidade do Tanque: " + getCapacidadeDoTanque();
     }
 }
-
-
-

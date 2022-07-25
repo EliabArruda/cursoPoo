@@ -1,8 +1,8 @@
-package exercicios.estruturabasica;
+package exercicios.Heranca;
 
-public class Rodar {
+public class Main {
 
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
         Carro carro1 = new Carro("Preto", "Fiat Cronos 2020", 48f);
         Carro carro2 = new Carro("Azul", "Chevrolet Camaro SS 2015", 54f);
@@ -33,6 +33,31 @@ public class Rodar {
         System.out.println("=================================");
         System.out.println();
 
+
+        //===================================================
+
+        Moto moto1 = new Moto();
+
+        moto1.setModelo("XRE 190 2020");
+        moto1.setCor("Preta");
+        moto1.setCapacidadeDoTanque(13.5f);
+        System.out.println(moto1.toString());
+
+        System.out.println("O preço total para encher o tanque do veículo "
+                + moto1.getModelo() + " é de: R$" + moto1.encherTanque(5.89f));
+
+        System.out.println("=================================");
+        System.out.println();
+
+
+        //===================================================
+
+
+        Caminhao caminhao1 = new Caminhao("Volkswagen Worker Euro 5","Branco", 275f);
+
+        
+        System.out.println("O preço total para encher o tanque do veículo "
+                + caminhao1.getModelo() + " é de: R$" + caminhao1.encherTanque(7.56f));
 
     }
 }
