@@ -1,6 +1,6 @@
-package exercicios.Heranca;
+package exercicios.heranca;
 
-public abstract class Veiculo {
+public class Veiculo {
 
 
     private String cor;

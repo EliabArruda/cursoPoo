@@ -1,4 +1,4 @@
-package exercicios.Heranca;
+package exercicios.heranca;
 
 public class Caminhao extends Veiculo {
 

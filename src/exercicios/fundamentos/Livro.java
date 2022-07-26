@@ -1,4 +1,4 @@
-package exercicios.Fundamentos;
+package exercicios.fundamentos;
 
 public class Livro {
 
